@@ -1,79 +1,76 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.navbar-brand {
+    font-family: 'Lobster', cursive !important;
+    font-size: 36px;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
+.button-container {
+    position: absolute;
+    top: 23px;
+    right: 10px;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
+.custom-btn {
+    margin-left: 10px;
 }
 
-header .container {
-    width: 80%;
-    margin: 0 auto;
+.bg-pastel-light-green {
+    background-color: rgba(144, 238, 144, 0.8);
+}
+
+.btn-primary {
+    background-color: #a8d5ba;
+    border-color: #a8d5ba;
+}
+
+.btn-primary:hover {
+    background-color: #8abf9d;
+    border-color: #8abf9d;
+}
+
+.bg-light {
+    background-color: #f8f9fa;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.text-center-content {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    height: 100%;
+    text-align: center;
 }
 
-header h1 {
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: fit-content;
+}
+
+.bg-pastel-yellow {
+    background-color: #f3e5ab;
+    /* Altere para uma cor mais visível */
+}
+
+.bg-pastel-dark-beige {
+    background-color: #d9c5a1;
+    /* Alterei para uma cor mais visível */
+}
+
+/* Ajuste do layout do último container */
+.social-links a {
     font-size: 24px;
+    /* Aumentando o tamanho dos ícones */
 }
 
-nav ul {
-    list-style: none;
+.bg-pastel-light-blue {
+    background-color: rgba(173, 216, 230, 0.8); /* Azul pastel */
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.section {
-    padding: 40px 0;
-    background-color: #fff;
-    margin: 20px 0;
-}
-
-.section h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.content {
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.content img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    margin-top: 40px;
-}
-
-footer p {
-    margin: 0;
-}

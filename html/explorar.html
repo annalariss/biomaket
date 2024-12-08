@@ -1,46 +1,102 @@
-<h4 class="mt-2 text-center">Maquete</h4>
+<!DOCTYPE html>
+<html lang="pt-br">
 
-<div class="col-12 col-md-12 bg-pastel-yellow text-center h-100 mt-2">
-    <div class="container">
-        <div class="row justify-content-center mt-5">
-            <!-- Card 1 -->
-            <div class="col-12 col-md-4 card-margin">
-                <div class="card">
-                    <img width="400" height="500" src="imagem1.jpg" class="card-img-top" alt="Imagem do Card 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Summer Crochet</h5>
-                        <p class="card-text"> R$ 100,00
-                        </p>
-                        <a href="#" class="btn btn-primary">Comprar</a>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="../css/css.css" rel="stylesheet" type="text/css">
+    <title>Biomaket</title>
+</head>
+
+<body>
+    <!-- Primeira Seção: Cabeçalho -->
+    <div class="container-fluid bg-pastel-light-green py-4">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Biomaket</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+                    <div class="d-flex">
+                        <a href="index.html" class="btn btn-primary">Voltar</a>
                     </div>
                 </div>
             </div>
-            <!-- Card 2 -->
-            <div class="col-12 col-md-4 card-margin">
-                <div class="card">
-                    <img width="400" height="500" src="imagem2.jpg" class="card-img-top" alt="Imagem do Card 2">
+        </nav>
+    </div>
+
+    <!-- Segunda Seção: Conteúdo Principal -->
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <!-- Card 1: Nanotubos de Carbono -->
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card shadow-lg">
+                    <img src="images/nanotubos.webp" class="card-img-top" alt="Nanotubos de Carbono">
                     <div class="card-body">
-                        <h5 class="card-title">Daisy bag</h5>
-                        <p class="card-text">R$ 120,00</p>
-                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <h5 class="card-title">Nanotubos de Carbono</h5>
+                        <p class="card-text">Estrutura, Funcionalização e Suas Aplicações na Medicina</p>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
                     </div>
                 </div>
             </div>
-            <!-- Card 3 -->
-            <div class="col-12 col-md-4 card-margin">
-                <div class="card">
-                    <img width="400" height="500" src="imagem3.jpg" class="card-img-top" alt="Imagem do Card 3">
+
+            <!-- Card 2: Nanorrobôs -->
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card shadow-lg">
+                    <img src="images/nanorrobos.webp" class="card-img-top" alt="Nanorrobôs">
                     <div class="card-body">
-                        <h5 class="card-title">Classic dress</h5>
-                        <p class="card-text"> R$ 200,00
-                        </p>
-                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <h5 class="card-title">Nanorrobôs</h5>
+                        <p class="card-text">Aplicações na Medicina e Desenvolvimento Tecnológico</p>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: Artigos -->
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card shadow-lg">
+                    <img src="images/artigos.webp" class="card-img-top" alt="Artigos">
+                    <div class="card-body">
+                        <h5 class="card-title">Artigos</h5>
+                        <p class="card-text">Avanços Recentes em Nanotecnologia para Tratamento de Doenças</p>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+
+    <!-- Terceira Seção: Redes Sociais -->
+    <div class="container-fluid bg-pastel-light-green py-4 text-center">
+        <div class="social-links d-flex justify-content-center">
+            <a href="https://facebook.com" target="_blank" title="Facebook" class="mx-3">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" title="Twitter" class="mx-3">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/luaninha.fsm/" target="_blank" title="Instagram" class="mx-3">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/luana-morais-26458a308/" target="_blank" title="LinkedIn" class="mx-3">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Scripts Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-cu6rlWkpVsEKv7UpF1TvhOb+9u1sh7v/Sctm/hm/X1ZtggVQkK93R8v9Qlnvq7/c" crossorigin="anonymous"></script>
 </body>
 
 </html>
