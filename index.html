@@ -80,7 +80,7 @@
     <link href="https://annalariss.github.io/biomaket/css/css.css" rel="stylesheet" type="text/css">
 
     <title>Biomaket</title>
-    
+
 </head>
 
 <body>
@@ -116,32 +116,123 @@
         </div>
     </div>
 
-    <!-- O que é, como é feito e aplicações -->
-    <div class="col-12 col-md-12 h-100 mt-4">
-        <div class="container">
-                <div class="col-12 mb-4">
-                    <h1 class="fs-2 text-start ms-2">O que é?</h1>
-                    <ul class="list-unstyled ms-2">
-                        <li><p>Aqui você pode adicionar uma breve explicação sobre o que é a nanotecnologia ou o tema desejado. Utilize um texto simples e objetivo.</p></li>
-                    </ul>
-                </div>
+   <!-- O que é, como é feito e aplicações -->
+<div class="container-fluid">
+    <!-- Seção principal unificada -->
+    <div class="content-container mb-5 p-4">
+        <!-- Primeira seção -->
+        <div class="mb-5">
+            <h1 class="fs-2 text-start ms-2">O que é?</h1>
+            <ul class="list-unstyled ms-2">
+                <li>
+                    <p>A nanotecnologia é uma área da ciência dedicada a manipular a matéria numa escala
+                        nanométrica, ou seja, em nível molecular ou atômico. Tal escala é bastante pequena e
+                        representa uma dimensão que é mil vezes menor do que a espessura de um fio de cabelo. </p>
+                </li>
+                <li>
+                    <p>Ela é um campo da ciência que tem uma enorme variedade de aplicações, podendo ser utilizada
+                        em diversos setores, desde a medicina até a eletrônica. A nanotecnologia é uma área de grande
+                        interesse, pois possui o potencial de revolucionar muitos campos da ciência e da tecnologia.</p>
+                </li>
+            </ul>
+        </div>
 
-                <div class="col-12 mb-4">
-                    <h1 class="fs-2 text-start ms-2">Como é feito?</h1>
-                    <ul class="list-unstyled ms-2">
-                        <li><p>Aqui você pode explicar o processo ou a técnica de fabricação associada ao tema. Dê um resumo explicativo sobre o processo.</p></li>
-                    </ul>
-                </div>
+        <div class="mb-5">
+            <h2 class="fs-3 text-start ms-2">Assista ao vídeo explicativo sobre a nanotecnologia</h2>
+            <!-- Se você for adicionar um vídeo local -->
+            <video class="d-block w-100" controls>
+                <source src="seu-video.mp4" type="video/mp4">
+                Seu navegador não suporta o formato de vídeo.
+            </video>
 
-                <div class="col-12 mb-4">
-                    <h1 class="fs-2 text-start ms-2">Aplicações</h1>
-                    <ul class="list-unstyled ms-2">
-                        <li><p>Aqui você pode adicionar exemplos de onde e como a nanotecnologia é aplicada, ou outros exemplos relevantes. Use listas de exemplo, se necessário.</p></li>
-                    </ul>
+        <!-- Segunda seção -->
+        <div class="mb-5">
+            <h1 class="fs-2 text-start ms-2">História da nanotecnologia</h1>
+            <ul class="list-unstyled ms-2">
+                <li>
+                    <p>A origem da nanotecnologia tem suas raízes na física e na química, e teve início com os estudos de
+                        Richard Feynman na década de 1950. Entretanto, apenas no ano de 1980 o termo “nanotecnologia”
+                        começou a ser utilizado a fim de referir-se à manipulação dos materiais em escala nanométrica.</p>
+                    <p>Feynman, um brilhante físico, teve a ideia de que era possível manipular e controlar materiais em escala nanométrica. A partir daí, os avanços científicos permitiram o desenvolvimento de técnicas para produzir e manipular materiais nessa escala, e a nanotecnologia se tornou uma área de pesquisa interdisciplinar que envolve física, química, biologia, engenharia e outras áreas de conhecimento. Ele propôs o desafio de construir o primeiro motor elétrico menor que a cabeça de um alfinete. O segundo desafio que ele propôs era o de reduzir a página de um livro em 25.000 vezes. Ambas as tarefas foram cumpridas, uma em 1960 e a outra em 1986.</p>
+                    <p>A partir de 1980, a litografia por feixe de elétrons emergiu como uma técnica avançada para produzir e manipular materiais em escala nanométrica. Essa técnica utiliza um feixe de elétrons altamente energético, gerado por um canhão de elétrons e direcionado por lentes eletromagnéticas, para transferir padrões de desenho para a superfície de um substrato. O impacto do feixe quebra ligações químicas nas áreas designadas, permitindo a remoção seletiva de material e a formação de estruturas extremamente pequenas.</p>
+                    <p>Um dos marcos dessa ciência foi a descoberta do carbono em forma de nanotubo, em 1991, pelo físico japonês Sumio Iijima. Os nanotubos de carbono trazem propriedades mecânicas e elétricas únicas, os tornando ideais para aplicações em eletrônica, medicina e demais áreas.</p>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Carrossel para a segunda seção -->
+        <div id="carouselHistoria" class="carousel slide mb-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="historia1.jpg" class="d-block w-100" alt="Imagem 1 da História">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Legenda para Imagem 1</h5>
+                        <p>Descrição da primeira imagem da história.</p>
+                    </div>
                 </div>
+                <div class="carousel-item">
+                    <img src="historia2.jpg" class="d-block w-100" alt="Imagem 2 da História">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Legenda para Imagem 2</h5>
+                        <p>Descrição da segunda imagem da história.</p>
+                    </div>
+                </div>
+                <!-- Adicionar mais imagens se necessário -->
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselHistoria" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselHistoria" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Terceira seção -->
+        <div>
+            <h1 class="fs-2 text-start ms-2">Aplicações</h1>
+            <ul class="list-unstyled ms-2">
+                <li>
+                    <p>A nanotecnologia possui uma ampla gama de aplicações, desde a eletrônica até a energia, mas é na medicina que seu impacto tem sido mais promissor e revolucionário. Uma de suas principais contribuições está no desenvolvimento de sistemas avançados de entrega de medicamentos (drug delivery), que utilizam nanopartículas para transportar fármacos diretamente às células doentes, como as cancerígenas. Isso aumenta a eficácia dos tratamentos e minimiza os efeitos colaterais, já que o medicamento atinge diretamente o alvo, preservando tecidos saudáveis.</p>
+                    <p>Além disso, a nanotecnologia também está transformando o campo do diagnóstico médico. Sensores em escala nanométrica têm sido desenvolvidos para detectar biomarcadores de doenças de maneira mais precisa e precoce, permitindo diagnósticos rápidos e intervenções mais eficazes.</p>
+                    <p>Outro avanço importante está no uso de nanorrobôs na medicina. Esses robôs microscópicos têm o potencial de realizar cirurgias mínimas invasivas ou reparar tecidos danificados com extrema precisão, acessando áreas que antes eram de difícil alcance.</p>
+                    <p>Não só isso, a nanotecnologia está sendo aplicada no desenvolvimento de materiais biocompatíveis que podem ser utilizados em próteses, implantes e dispositivos médicos, melhorando a integração com o corpo humano e reduzindo riscos de rejeição. Esses materiais têm a capacidade de interagir de forma mais eficiente com os tecidos biológicos, tornando os tratamentos mais seguros e eficazes.</p>
+                    <p>Essas inovações mostram como a nanotecnologia está moldando o futuro da medicina, permitindo tratamentos mais personalizados, diagnósticos mais rápidos e soluções para doenças que antes eram difíceis de tratar.</p>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Carrossel para a terceira seção -->
+        <div id="carouselAplicacoes" class="carousel slide mb-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="aplicacao1.jpg" class="d-block w-100" alt="Imagem 1 Aplicações">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Legenda para Imagem 1</h5>
+                        <p>Descrição da primeira imagem de aplicações.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="aplicacao2.jpg" class="d-block w-100" alt="Imagem 2 Aplicações">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Legenda para Imagem 2</h5>
+                        <p>Descrição da segunda imagem de aplicações.</p>
+                    </div>
+                </div>
+                <!-- Adicionar mais imagens se necessário -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselAplicacoes" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselAplicacoes" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </div>
+</div>
 
     <!-- Último container com redes sociais -->
     <div class="container-fluid bg-pastel-light-green py-4 text-center">
