@@ -4,10 +4,13 @@
 }
 
 .button-container {
-    position: relative; /* Alterado para evitar problemas de posicionamento */
-    top: 23px;
-    right: 10px;
+    display: flex;
+    justify-content: center;  /* Centraliza horizontalmente */
+    align-items: center;      /* Centraliza verticalmente */
+    gap: 20px;                /* Adiciona espaço entre os botões */
+    
 }
+
 
 .custom-btn {
     margin-left: 10px;
