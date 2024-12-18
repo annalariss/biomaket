@@ -4,7 +4,7 @@
 }
 
 .button-container {
-    position: absolute;
+    position: relative; /* Alterado para evitar problemas de posicionamento */
     top: 23px;
     right: 10px;
 }
@@ -20,6 +20,10 @@
 .btn-primary {
     background-color: #a8d5ba;
     border-color: #a8d5ba;
+    visibility: visible !important; /* Garantir visibilidade */
+    opacity: 1 !important; /* Garantir opacidade */
+    z-index: 10; /* Garantir que esteja acima de outros elementos */
+    position: relative; /* Evitar conflitos de posição */
 }
 
 .btn-primary:hover {
@@ -73,4 +77,3 @@ h1 {
 .bg-pastel-light-blue {
     background-color: rgba(173, 216, 230, 0.8); /* Azul pastel */
 }
-
